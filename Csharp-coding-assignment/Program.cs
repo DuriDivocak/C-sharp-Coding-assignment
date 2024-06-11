@@ -82,7 +82,6 @@ namespace TimeReflector
                         finalOutput += ";;";
                     }
                     finalOutput += Wrapper(uniqueTimes[i]);
-                    continue;
                 }
             }
             return finalOutput;
