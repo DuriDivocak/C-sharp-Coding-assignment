@@ -66,7 +66,7 @@ namespace TimeReflector
         {
             if (input == "")
             {
-                throw new ArgumentException("input cannot be an empty string");
+                return "Invalid input!";
             }
             string finalOutput = "";
             string[] times = input.Split(";;");
